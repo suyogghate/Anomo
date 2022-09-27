@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #11998e;  
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin-bottom: -28px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+
+    /* font-weight: 800; */
+}
+
+.sub-heading{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-container{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(177, 169, 169, 0.5);
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.form-container .userNameInput{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(245, 243, 243, 0.355);
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-container .userMessageInput{
+    width: 400px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(245, 243, 243, 0.355);
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+/* input[type=text]:focus {
+    border-style: none;
+} */
+
+::placeholder{
+    color: white;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    padding-top: 4px;
+    color: rgb(3, 100, 129);
+    font-size: 18px;
+    background: rgba(245, 243, 243, 0.434);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #11998e;
+    color: white;
+}
+
+.container-box{
+    max-width: 500px;
+}
+
+.response-container{
+    height: 200px;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background: rgb(177, 169, 169, 0.5);
+    border: 1px solid white;
+    border-radius: 7px;
+    overflow-y: scroll;
+}
+
+.responses{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.response-message{
+    margin-left: 5px;
+}
+
+.responses .response-name{
+    color: rgb(2, 57, 115);
+}
